@@ -13,7 +13,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid salmon;
 }
 .nav_container{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -32,6 +31,7 @@ nav{
 }
 .nav_options{
     font-weight: 500;
+    display: flex;
 }
 .nav_button1{
     background-color: transparent;
@@ -51,27 +51,32 @@ nav{
 }
 
 
+
 /* header class starts here */
 header{
-    border: 2px solid #FF42A5;
     display: flex;
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 1920px;
     justify-content: space-between;
     align-items: center;
 }
 .header_left{
-    
-    border: 2px solid #42c9ff;
     width: 50%;
 }
+.header_left_bg{
+    background-image: url(./images/Group\ 14.png);
+    width: 901px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header_right{
-    
-    border: 2px solid #42ff84;
-    width: 50%;
+    width: 40%;
+    margin-right: 10%;
 }
 .header_right img{
     width: 100%;
+    height: 700px;
 }
 .play_like{
     font-size: 3.2rem;
