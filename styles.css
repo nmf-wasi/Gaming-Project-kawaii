@@ -132,3 +132,55 @@ header{
 .Go_Rouge{
     background: rgb(78, 197, 247);
 }
+
+
+
+/* group image section */
+.group_image_section{
+    background-color: rgba(255, 66, 165, 0.03);
+    padding: 55px 0;
+}
+.group_image_container{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.group_image{
+    width: 45%;
+}
+.group_image img{
+    width: 100%;
+}
+.group_image_text{
+    width: 45%;
+    text-align: right;
+}
+.Gamer{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 6.16rem;
+    margin-top: 4px;
+    background-image: linear-gradient(#F948B2,#8758F1);
+    background-clip: text;
+    color: transparent;
+}
+.group_description{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.purpose, .quote{
+    color: rgb(83, 76, 100);
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: right;
+}
+.quote{
+    font-weight: 700;
+    font-size: 2rem;
+}

@@ -17,5 +17,15 @@
     .nav_button2{
         margin-bottom: 78px;
     }
-
+    /* header starts here */
+    header{
+        flex-direction: column-reverse;
+    }
+    .header_right{
+        width: 100%;
+        margin-right: 0;
+    }
+    .header_left_bg{
+        background-image: none;
+    }
 } 
