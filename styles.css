@@ -40,6 +40,12 @@ nav{
     margin-right: 1.667vw;
     font-weight: 500;
     font-size: 0.833vw;
+    padding: 1vw;
+}
+.nav_button1:hover{
+    background-color: #FF42A5;
+    color: white;
+
 }
 .nav_button2{
     border: none;
@@ -51,7 +57,9 @@ nav{
     background: rgba(11, 2, 35, 0.1);
 }
 
-
+header, .group_image_section,.online-main,.play-main,.category-main,.category-main{
+    background-color: white;
+}
 
 /* header class starts here */
 header{
@@ -190,7 +198,24 @@ header{
 
 
 /* online section css starts here */
-
+#funny_vids{
+    background-image: linear-gradient(#F948B2,#8758F1);
+    background-clip: text;
+    color: transparent;
+}
+.online_game_text{
+    margin: 0, auto;
+    align-items: center;
+    text-align: center;
+}
+.online_game_text >h1{
+    padding: 1vw;
+    font-size: 3rem;
+}
+.online_game_text >p{
+    margin-bottom: 3vw;
+    font-size: 1rem;
+}
 .online-main{
     max-width: 1440px;
     margin: 0 auto;
@@ -209,7 +234,9 @@ header{
 .online-card img{
     width: 100%;
 }
-
+.online-card>p{
+    font-size: 1.2rem;
+}
 .card-1{
     grid-area: a;
 }
@@ -226,17 +253,18 @@ header{
 .watch-now{
     position: absolute;
     top: 38%;
-    left: 38%;
+    left: 33%;
     text-align: center;
     display: none;
-    
 }
 .watch-now span{
     font-size: 30px;
     color: white;
 }
 .watch-now p{
-    color: red;
+    color: rgb(255, 66, 165);
+    font-size: 1.3rem;
+    font-weight: 800;
 }
 .online-card img:hover+.watch-now{
     display: block;
@@ -248,7 +276,7 @@ header{
 .play-main{
     display: flex;
     max-width: 1000px;
-    margin: 0 auto 100px;
+    margin: 5vw auto 100px;
     justify-content: space-between;
     align-items: center;
 
@@ -271,6 +299,14 @@ header{
     bottom: -60px;
     left: -60px;
 }
+
+
+
+
+
+
+
+
 .category-main{
   
     margin: 100px auto;
@@ -282,7 +318,7 @@ header{
     /* border: 1px solid green; */
 }
 .category-child{
-    border-radius: 20px;
+    border-radius: 5vw;
     display: flex;
     align-items: center;
 
