@@ -198,6 +198,11 @@ header{
 
 
 /* online section css starts here */
+#Play_ins{
+    background-image: linear-gradient(rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text;
+    color: transparent;
+}
 #funny_vids{
     background-image: linear-gradient(#F948B2,#8758F1);
     background-clip: text;
@@ -284,6 +289,9 @@ header{
 .play-left{
     width: 40%;
 }
+.play-left >h1{
+    font-size: 3rem;
+}
 .play-right{
     width: 40%;
     position: relative;
@@ -298,6 +306,38 @@ header{
     height: 180px;
     bottom: -60px;
     left: -60px;
+}
+.play_games_online{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+}
+
+.games_left{
+    align-items: left;
+    width: 49.3%;
+    height: 45.13%;
+    position: relative;
+}
+.games_right >h1{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.games_right >p{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.kitty{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 8px;
+    bottom: -110px;
+    right: -100px;
 }
 
 
